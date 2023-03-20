@@ -1,23 +1,21 @@
 #include <stdio.h>
 /**
- * main- main function
- *
- * Return:0
+ * main - is the main function
+ * Return: 0
  */
 int main(void)
 {
 	int i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		if (i < 9)
+		putchar(i);
+		if (i != 57)
 		{
-			putchar(i);
 			putchar(',');
 			putchar(' ');
 		}
-		else
-			putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
