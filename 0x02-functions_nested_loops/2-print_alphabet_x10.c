@@ -10,7 +10,6 @@ void print_alphabet_x10(void)
 
 	for (j = 'a'; j <= 'z'; j++)
 		for (i = 0; i <= 10; i++)
-			while (i <= 10)
-				_putchar(j);
+			_putchar(j);
 	_putchar('\n');
 }
