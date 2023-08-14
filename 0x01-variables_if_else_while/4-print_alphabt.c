@@ -5,8 +5,8 @@
  * Return: 0 when success
  * */
 int main(void){
-	char ch = "a";
-	while(ch <= "z" && ch != "q" && ch != "e"){
+	char ch = 'a';
+	while(ch <= 'z' && ch != 'q' && ch != 'e'){
 		putchar(ch);
 		ch++;
 	}
