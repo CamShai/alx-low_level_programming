@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * factorial - finds factorial
- * @n: target 
+ * @n: target
  * Return: factorial
  */
 int factorial(int n)
