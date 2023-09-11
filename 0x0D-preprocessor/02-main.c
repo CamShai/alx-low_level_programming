@@ -1,11 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
+#ifndef MAIN_H
+#define MAIN_H
+
+#define NAME __FILE__
+
+#endif
 /**
- * main - print name of file
- * Return: 0 if success
+ * main - entry point
+ *
+ * Return: success(0)
  */
 int main(void)
 {
-	printf("%s", __FILE__);
+	printf("%s\n", NAME);
+
 	return (0);
 }
